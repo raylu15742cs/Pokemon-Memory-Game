@@ -1,4 +1,4 @@
-import React from "react";
+import React , {Component} from "react";
 // main holder for 12 cards
 class Main extends Component {
     render() {
