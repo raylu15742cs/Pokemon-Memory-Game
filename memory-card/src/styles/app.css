@@ -1,0 +1,16 @@
+.app {
+    min-height: 100vh;
+}
+
+.header {
+    height: 10vh;
+    background-color: aliceblue;
+}
+.main {
+    min-height: 80vh;
+    background-color: antiquewhite;
+}
+.footer {
+    height: 10vh;
+    background-color: azure;
+}

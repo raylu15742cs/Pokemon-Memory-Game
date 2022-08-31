@@ -5,7 +5,7 @@ import React, {Component} from "react";
 class Header extends Component {
     render() {
         return (
-            <div>
+            <div className="header">
                 <p> Copyright &copy; 2022 raylu15742</p>
             </div>
         );
