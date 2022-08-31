@@ -1,5 +1,5 @@
 import React from "react";
-
+// main holder for 12 cards
 class Main extends Component {
     render() {
         return (
