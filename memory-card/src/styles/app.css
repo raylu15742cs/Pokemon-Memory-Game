@@ -11,6 +11,7 @@
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
+    padding: 1vw;
 }
 .main {
     min-height: 90vh;
@@ -24,7 +25,15 @@
     text-align: center;
 }
 .card {
-    height: 30vh;
-    min-width: 25vw;
+    height: 25vh;
+    min-width: 21vw;
+    margin: 2vh 2vw;
     border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 15vh;
+    width: auto;
 }
