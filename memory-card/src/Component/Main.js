@@ -4,18 +4,18 @@ class Main extends Component {
     render() {
         return (
           <div className="main">
-            <div className="cardOne"> one </div>
-            <div className="cardOne"> two</div>
-            <div className="cardOne"> three</div>
-            <div className="cardOne"> four</div>
-            <div className="cardOne">five</div>
-            <div className="cardOne">6</div>
-            <div className="cardOne">seven</div>
-            <div className="cardOne">eight</div>
-            <div className="cardOne">nine</div>
-            <div className="cardOne">ten</div>
-            <div className="cardOne">11</div>
-            <div className="cardOne">12</div>
+            <div className="card"> one </div>
+            <div className="card"> two</div>
+            <div className="card"> three</div>
+            <div className="card"> four</div>
+            <div className="card">five</div>
+            <div className="card">six</div>
+            <div className="card">seven</div>
+            <div className="card">eight</div>
+            <div className="card">nine</div>
+            <div className="card">ten</div>
+            <div className="card">eleven</div>
+            <div className="card">twelve</div>
           </div>
         );
     }
