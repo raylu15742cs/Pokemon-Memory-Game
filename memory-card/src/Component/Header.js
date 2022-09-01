@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import Tracker from "./Tracker"
 
 // this will file will handle header
 
@@ -12,7 +11,7 @@ class Header extends Component {
                     <p>Get points by clicking on an image but don't click on any more than once!</p>
                 </div>
                 <div className="rightHeader">
-                    <h1>Score : <Tracker /> Best Score : <Tracker /></h1>
+                    <h1>Score : 0 Best Score : 0</h1>
                 </div>
             </div>
         );
