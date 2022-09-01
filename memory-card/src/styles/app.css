@@ -5,6 +5,7 @@
 .header {
     height: 10vh;
     background-color: aliceblue;
+    display: flex;
 }
 .main {
     min-height: 80vh;
@@ -13,4 +14,8 @@
 .footer {
     height: 10vh;
     background-color: azure;
+}
+
+.leftheader {
+    width: 90vw;
 }
