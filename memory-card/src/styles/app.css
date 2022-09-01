@@ -10,8 +10,8 @@
     height: 8vh;
     background-color: aliceblue;
     display: flex;
-    justify-content: space-between;
-    padding: 1vw;
+    padding: 1vw 3vw;
+    gap: 11vw;
 }
 .main {
     min-height: 90vh;

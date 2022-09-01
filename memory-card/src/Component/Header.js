@@ -12,7 +12,7 @@ class Header extends Component {
                     <p>Get points by clicking on an image but don't click on any more than once!</p>
                 </div>
                 <div className="rightHeader">
-                    <p>Score : <Tracker /> Best Score : <Tracker /></p>
+                    <h1>Score : <Tracker /> Best Score : <Tracker /></h1>
                 </div>
             </div>
         );
