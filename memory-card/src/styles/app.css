@@ -7,23 +7,24 @@
 }
 
 .header {
-    height: 10vh;
+    height: 8vh;
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
 }
 .main {
-    min-height: 87vh;
+    min-height: 90vh;
     background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
 }
 .footer {
-    height: 3vh;
+    height: 2vh;
     background-color: azure;
+    text-align: center;
 }
 .card {
-    height: 29vh;
+    height: 30vh;
     min-width: 25vw;
     border: 1px solid red;
 }
