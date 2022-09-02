@@ -14,50 +14,52 @@ let imgcontainer = {
   11:{url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png', count: 0},
   12:{url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png', count: 0},
 };
-
+let clicked = (e) => {
+  console.log(e);
+  imgcontainer[e.target.id]['count'] += 1;
+  console.log(imgcontainer[e.target.id]['count']);
+};
 
 let Generator = (generated) => {
     console.log(generated.test[0])
   return (
     <div className="main">
       <div className="card" id="one">
-        <img
-          src={imgcontainer[generated.test[0]]['url']}
-          alt="1"
+        <img onClick={clicked} src={imgcontainer[generated.test[0]]['url']} alt="1" id={generated.test[0]}
         ></img>
       </div>
       <div className="card" id="two">
-        <img src={imgcontainer[generated.test[1]]['url']} alt="2"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[1]]['url']} alt="2" id={generated.test[1]}></img>
       </div>
       <div className="card" id="three">
-        <img src={imgcontainer[generated.test[2]]['url']} alt="3"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[2]]['url']} alt="3" id={generated.test[2]}></img>
       </div>
       <div className="card" id="four">
-        <img src={imgcontainer[generated.test[3]]['url']} alt="4"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[3]]['url']} alt="4" id={generated.test[3]}></img>
       </div>
       <div className="card" id="five">
-        <img src={imgcontainer[generated.test[4]]['url']} alt="5"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[4]]['url']} alt="5" id={generated.test[4]}></img>
       </div>
       <div className="card" id="six">
-        <img src={imgcontainer[generated.test[5]]['url']} alt="6"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[5]]['url']} alt="6" id={generated.test[5]}></img>
       </div>
       <div className="card" id="seven">
-        <img src={imgcontainer[generated.test[6]]['url']} alt="7"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[6]]['url']} alt="7"id={generated.test[6]}></img>
       </div>
       <div className="card" id="eight">
-        <img src={imgcontainer[generated.test[7]]['url']} alt="8"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[7]]['url']} alt="8" id={generated.test[7]}></img>
       </div>
       <div className="card" id="nine">
-        <img src={imgcontainer[generated.test[8]]['url']} alt="9"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[8]]['url']} alt="9" id={generated.test[8]}></img>
       </div>
       <div className="card" id="ten">
-        <img src={imgcontainer[generated.test[9]]['url']} alt="10"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[9]]['url']} alt="10"id={generated.test[9]}></img>
       </div>
       <div className="card" id="eleven">
-        <img src={imgcontainer[generated.test[10]]['url']} alt="11"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[10]]['url']} alt="11" id={generated.test[10]}></img>
       </div>
       <div className="card" id="twelve">
-        <img src={imgcontainer[generated.test[11]]['url']} alt="12"></img>
+        <img onClick={clicked} src={imgcontainer[generated.test[11]]['url']} alt="12" id={generated.test[11]}></img>
       </div>
     </div>
   );
