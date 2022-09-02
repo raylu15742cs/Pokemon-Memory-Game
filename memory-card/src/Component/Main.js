@@ -7,7 +7,6 @@ function Main() {
     
     return (
         <div>
-            <button onClick={<Random />}></button>
             <Random />
         </div>
     )
