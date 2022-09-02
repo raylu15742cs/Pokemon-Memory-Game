@@ -17,7 +17,7 @@ let  Random = (count) => {
         
     }
     return (
-        <Generator test={generated} />
+        <Generator test={generated}/>
     )
 }
 
