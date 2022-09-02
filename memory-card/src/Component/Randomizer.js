@@ -28,15 +28,22 @@ let  Random = () => {
         
     }
     return (
-    Generator(generated)
+        Generator(generated)
     )
+}
+
+let clicked = (e) => {
+    console.log(e.target.className)
+    let cool = document.getElementById(e.target.id)
+    cool.classList.add("clicked")
+    Random()
 }
 
 let Generator = (generated) => {
     return (
       <div className="main">
         <div className="card" id="one">
-          <img src={imgcontainer[generated[0]]} alt="1"></img>
+          <img onClick={clicked} src={imgcontainer[generated[0]]} alt="1" id="coolbean"></img>
         </div>
         <div className="card" id="two">
           <img src={imgcontainer[generated[1]]} alt="2"></img>

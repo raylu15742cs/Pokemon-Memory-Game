@@ -4,7 +4,9 @@ import Random from "./Randomizer";
 // main holder for 12 cards
 
 function Main() {
-  <Random />
+    return (
+        <Random />
+    )
 }
 
 

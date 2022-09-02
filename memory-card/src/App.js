@@ -1,5 +1,5 @@
 import Header from "./Component/Header";
-import Random from "./Component/Randomizer";
+import Main from "./Component/Main";
 import Footer from "./Component/Footer";
 import "./styles/app.css"
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Random />
+      <Main />
       <Footer />
     </div>
   );
