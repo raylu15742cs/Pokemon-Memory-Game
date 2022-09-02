@@ -12,7 +12,7 @@ let imgcontainer = {
   9: {url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png', count: 0},
   10: {url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png', count: 0},
   11:{url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png', count: 0},
-  12:{url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png', count: 0},
+  12:{url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png', count: 1},
 };
 
 let  Random = () => {
