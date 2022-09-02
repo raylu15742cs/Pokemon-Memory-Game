@@ -35,7 +35,7 @@ let  Random = () => {
 let Generator = (generated) => {
     return (
       <div className="main">
-        <div  onClick={Random} className="card" id="one">
+        <div className="card" id="one">
           <img src={imgcontainer[generated[0]]} alt="1"></img>
         </div>
         <div className="card" id="two">
