@@ -1,5 +1,5 @@
 import React from "react";
-
+import Tracker from "./Tracker"
 // this will file will handle header
 
 
@@ -14,7 +14,7 @@ function Header () {
            </p>
          </div>
          <div className="rightHeader">
-           <h1>Score : 0 Best Score : 0</h1>
+           <Tracker />
          </div>
        </div>
      )
