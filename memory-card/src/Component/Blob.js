@@ -35,6 +35,18 @@ function Blob() {
     };
     let clearscore = () => {
         setscore(score-score)
+        setCount1(count1 - count1)
+        setCount2(count2 - count2);
+        setCount3(count3 - count3);
+        setCount4(count4 - count4);
+        setCount5(count5 - count5);
+        setCount6(count6 - count6);
+        setCount7(count7 - count7);
+        setCount8(count8 - count8);
+        setCount9(count9 - count9);
+        setCount10(count10 - count10);
+        setCount11(count11 - count11);
+        setCount12(count12 - count12);
     }
     let clicked = (e) => {
       if (e.target.id === '1') {
@@ -112,7 +124,7 @@ function Blob() {
       } else if (e.target.id === '7') {
         setCount7(count7 + 1);
         console.log(imgcontainer[7]['count']);
-       if (setCount7 === 0) {
+       if (count7 === 0) {
          setscore(score + 1);
          setCount7(count7 + 1);
          if (score >= bestscore) {
@@ -188,7 +200,7 @@ function Blob() {
         return (
             <div>
                 <div className="score">
-                    <p> Score = {score} Best Score = {bestscore} </p>
+                    <h1> Score = {score} Best Score = {bestscore} </h1>
                 </div>
                 <div className="main">
                     <div className="card" id="one">

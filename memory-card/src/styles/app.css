@@ -10,12 +10,17 @@
 .header {
     height: 8vh;
     background-color: aliceblue;
-    display: flex;
+
     padding: 1vw 3vw;
-    gap: 11vw;
+    text-align: center
+}
+.score {
+    height: 2vh;
+    text-align: center;
+    padding-top: .5vh;
 }
 .main {
-    min-height: 90vh;
+    min-height: 88vh;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
