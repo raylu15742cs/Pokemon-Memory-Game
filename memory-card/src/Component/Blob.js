@@ -1,3 +1,3 @@
 import React from "react";
 
-hi im cool 
+// this will hold all functions temporarily
