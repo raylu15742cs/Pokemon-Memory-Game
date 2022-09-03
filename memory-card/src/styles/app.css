@@ -9,8 +9,8 @@
 
 .header {
     height: 8vh;
-    background-color: aliceblue;
-
+    background-color: lightcoral;
+    color: lightyellow;
     padding: 1vw 3vw;
     text-align: center
 }
@@ -27,8 +27,10 @@
 }
 .footer {
     height: 2vh;
-    background-color: azure;
+    background-color: rgb(56,56,56);
+    color: white;
     text-align: center;
+    padding-top: .25vh;
 }
 .card {
     height: 25vh;
