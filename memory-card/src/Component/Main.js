@@ -13,7 +13,7 @@ function Main() {
     return (
         <div>
             <button onClick={randomclick}>Hi</button>
-            <Random />
+            <Random count/>
         </div>
     )
 }
