@@ -1,9 +1,10 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-size: 1rem;
 }
 .app {
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -20,7 +21,7 @@
     padding-top: .5vh;
 }
 .main {
-    min-height: 88vh;
+    height: 88vh;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +35,7 @@
 }
 .card {
     height: 25vh;
-    min-width: 21vw;
+    width: 21vw;
     margin: 2vh 2vw;
     border: 2px solid red;
     border-radius: 25px;
