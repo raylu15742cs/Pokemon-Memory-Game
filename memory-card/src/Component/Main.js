@@ -7,13 +7,13 @@ function Main() {
     const [count , setCount] = useState(0)
     let randomclick = () => {
         setCount(count+1);
-        <Random count={count}/>
+
 
     }
     return (
         <div>
             <button onClick={randomclick}>Hi</button>
-            <Random count/>
+            <Random />
         </div>
     )
 }
