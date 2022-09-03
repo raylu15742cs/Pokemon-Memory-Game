@@ -1,6 +1,6 @@
 import React , {useState} from "react";
 import Random from "./Randomizer";
-//from laptop
+
 // main holder for 12 cards
 
 function Main() {
