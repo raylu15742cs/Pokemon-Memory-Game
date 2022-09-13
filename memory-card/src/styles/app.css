@@ -1,7 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-size: 1rem;
+
 }
 .app {
     height: 100vh;
@@ -12,7 +12,7 @@
     height: 8vh;
     background-color: lightcoral;
     color: lightyellow;
-    padding: 1vw 3vw;
+    padding-top: 2vh;
     text-align: center
 }
 .score {
@@ -46,4 +46,16 @@
 img {
     height: 15vh;
     width: auto;
+}
+h1{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+    }
 }
