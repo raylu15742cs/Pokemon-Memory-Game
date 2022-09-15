@@ -3,9 +3,9 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div className="footer">
-        <p> Copyright &copy; 2022 raylu15742</p>
-        </div>
-    )
+      <div className="footer">
+        <p> Created by Me &copy; Raymond Lu 2022</p>
+      </div>
+    );
 }
 export default Footer;
