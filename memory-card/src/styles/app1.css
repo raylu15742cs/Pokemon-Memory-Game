@@ -1,0 +1,33 @@
+/* Media Queries */ 
+
+@media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
+
+/* Default */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 2rem;
+}
+.app {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+/* Style for Header */ 
+
+/* Style for Main Body */ 
+
+/* Style for Footer */ 
