@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Pokemon-Memory-Game/static/css/main.bb7a8060.css",
+    "main.css": "/Pokemon-Memory-Game/static/css/main.f73efc9c.css",
     "main.js": "/Pokemon-Memory-Game/static/js/main.772eb25d.js",
     "index.html": "/Pokemon-Memory-Game/index.html",
-    "main.bb7a8060.css.map": "/Pokemon-Memory-Game/static/css/main.bb7a8060.css.map",
+    "main.f73efc9c.css.map": "/Pokemon-Memory-Game/static/css/main.f73efc9c.css.map",
     "main.772eb25d.js.map": "/Pokemon-Memory-Game/static/js/main.772eb25d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb7a8060.css",
+    "static/css/main.f73efc9c.css",
     "static/js/main.772eb25d.js"
   ]
 }
