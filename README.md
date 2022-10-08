@@ -1,4 +1,4 @@
-#Will be Deprecated once TS version is complete
+# Will be Deprecated once TS version is complete
 
 # Getting Started with Create React App
 
