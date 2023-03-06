@@ -28,7 +28,7 @@ h1{
 
 /* Style for Header */ 
 .header {
-    height: 8vh;
+    height: 6vh;
     background-color: lightcoral;
     color: lightyellow;
     padding-top: 2vh;
@@ -36,7 +36,7 @@ h1{
 }
 /* Style for Main Body */ 
 .main {
-    height: 86vh;
+    height: 88vh;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -47,7 +47,7 @@ h1{
     padding-top: .5vh;
 }
 .card {
-    height: 22vh;
+    height: 25vh;
     width: 21vw;
     margin: 2vh 2vw;
     border: 2px solid red;
