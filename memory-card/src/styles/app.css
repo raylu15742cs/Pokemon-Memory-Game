@@ -36,18 +36,18 @@ h1{
 }
 /* Style for Main Body */ 
 .main {
-    height: 88vh;
+    height: 86vh;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
 }
 .score {
-    height: 2vh;
+    height: 4vh;
     text-align: center;
     padding-top: .5vh;
 }
 .card {
-    height: 25vh;
+    height: 22vh;
     width: 21vw;
     margin: 2vh 2vw;
     border: 2px solid red;
@@ -68,4 +68,12 @@ img {
     color: white;
     text-align: center;
     padding-top: .25vh;
+}
+
+.rules {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }

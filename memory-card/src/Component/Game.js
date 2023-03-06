@@ -3,7 +3,7 @@ import React , {useState} from "react";
 
 
 
-function Blob() {
+function Game() {
     const [score , setscore] = useState(0)
     const [bestscore , setBestscore] = useState(0)
     const [count1, setCount1] = useState(0);
@@ -18,6 +18,10 @@ function Blob() {
     const [count10, setCount10] = useState(0);
     const [count11, setCount11] = useState(0);
     const [count12, setCount12] = useState(0);
+
+    const [showRules, setShowRules] = useState(true)
+    const [blurapp, setBlurapp] = useState(false)
+
     let original = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
     let imgcontainer = {
         1: {url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png', count: count1},
@@ -200,6 +204,7 @@ function Blob() {
         return (
             <div>
                 <div className="score">
+                    <button>Rules</button>
                     <h1> Score = {score} Best Score = {bestscore} </h1>
                 </div>
                 <div className="main">
@@ -258,8 +263,11 @@ function Blob() {
         return (generator(generated))
     }
     return (
-        random()
-    )
+      <div>
+        {random()}
+        {showRules ? <div className="rules">hi</div> : ''}
+      </div>
+    );
 }   
 
-export default Blob
+export default Game
