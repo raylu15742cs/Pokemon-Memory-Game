@@ -75,5 +75,19 @@ img {
     top: 30%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid black;
+    background-color: #3a3b3c;
+    padding: 40px 20px;
+    color: #fbfbfb;
+    border-radius: 15px;
 }
+
+.blur {
+    filter: blur(4px)
+}
+

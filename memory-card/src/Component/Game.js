@@ -20,10 +20,10 @@ function Game() {
     const [count12, setCount12] = useState(0);
 
     const [showRules, setShowRules] = useState(true)
-    const [blurapp, setBlurapp] = useState(false)
+    const [blurapp, setBlurapp] = useState(true)
 
     let rules = () => {
-      setBlurapp(true)
+      setBlurapp(blurapp => !blurapp)
       setShowRules(showRules => !showRules)
     }
 
@@ -207,7 +207,7 @@ function Game() {
 
     let generator = (generated) => {
         return (
-            <div>
+            <div className={blurapp ? 'blur' : ''}>
                 <div className="score">
                     <button onClick={rules}>Rules</button>
                     <h1> Score = {score} Best Score = {bestscore} </h1>
@@ -270,7 +270,16 @@ function Game() {
     return (
       <div>
         {random()}
-        {showRules ? <div className="rules">hi</div> : ''}
+        {showRules ? (
+        <div className="rules">
+          <h2>Rules</h2>
+          <p>This is just a simple memorization game</p>
+          <p>Try to select each pokemon only once</p>
+          <p>The max score is 12</p>
+          <p>Good Luck!</p>
+          <button onClick={rules}>Play</button>
+
+        </div>) : ''}
       </div>
     );
 }   
