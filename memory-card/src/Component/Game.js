@@ -22,6 +22,11 @@ function Game() {
     const [showRules, setShowRules] = useState(true)
     const [blurapp, setBlurapp] = useState(false)
 
+    let rules = () => {
+      setBlurapp(true)
+      setShowRules(showRules => !showRules)
+    }
+
     let original = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
     let imgcontainer = {
         1: {url: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png', count: count1},
@@ -204,7 +209,7 @@ function Game() {
         return (
             <div>
                 <div className="score">
-                    <button>Rules</button>
+                    <button onClick={rules}>Rules</button>
                     <h1> Score = {score} Best Score = {bestscore} </h1>
                 </div>
                 <div className="main">
